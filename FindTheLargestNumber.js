@@ -13,3 +13,11 @@ function findLargest(nums) {
 
 console.log(findLargest([3, 7, 2, 9, 4]));
 console.log(findLargest([-5, -2, -8]));
+
+/*
+I initialize max with the first element of nums. 
+Then, I iterate through the remaining elements. 
+If the current number is larger than max, I update max.
+
+The algorithm takes O(n) time and O(1) extra space.
+*/

@@ -14,3 +14,6 @@ function runningSum(nums) {
 }
 
 console.log(runningSum([1, 2, 3, 4]));
+
+// Time complexity : O(n)
+// Space complexity : O(n)
