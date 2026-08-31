@@ -31,3 +31,6 @@ console.log(countVowels("javascript"));
 console.log(countVowels("rhythm"));
 console.log(countVowels(""));
 console.log(countVowels("aeiou"));
+
+// Time Complexity : O(n)
+// Extra Spcae Complexity : O(1)
