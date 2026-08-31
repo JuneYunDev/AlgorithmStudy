@@ -8,17 +8,9 @@ function countVowels(text) {
   for (let i = 0; i < text.length; i++) {
     switch (text[i]) {
       case "a":
-        count++;
-        break;
       case "e":
-        count++;
-        break;
-      case "i":
-        count++;
-        break;
       case "o":
-        count++;
-        break;
+      case "i":
       case "u":
         count++;
         break;
