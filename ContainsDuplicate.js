@@ -13,6 +13,10 @@ function containsDuplicate(nums) {
   return false;
 }
 
-console.log(containsDuplicate([1, 2, 3, 1]));
-console.log(containsDuplicate([1, 2, 3, 4]));
 console.log(containsDuplicate([]));
+console.log(containsDuplicate([7]));
+console.log(containsDuplicate([7, 7]));
+console.log(containsDuplicate([1, 2, 1, 3]));
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
