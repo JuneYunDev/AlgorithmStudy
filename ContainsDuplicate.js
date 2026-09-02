@@ -20,3 +20,10 @@ console.log(containsDuplicate([1, 2, 1, 3]));
 
 // Time Complexity : O(n)
 // Space Complexity : O(n)
+/*
+I use a Set to store numbers I have already seen.
+For each number, I first check whether the Set already contains it.
+If it already exists, I return true.
+Otherwise, I add the number to the Set.
+If the loop finishes without finding a duplicate, I return false.
+*/
