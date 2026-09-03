@@ -3,7 +3,7 @@ Problem : Given an integer array nums, return the first number that appears for 
 */
 
 function firstRepeatedNumber(nums) {
-  let check = new Set();
+  const check = new Set();
   for (let i = 0; i < nums.length; i++) {
     if (check.has(nums[i])) {
       return nums[i];
