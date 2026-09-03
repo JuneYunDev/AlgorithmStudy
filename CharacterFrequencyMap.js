@@ -27,3 +27,6 @@ function countCharacters(text) {
 console.log(countCharacters("banana"));
 console.log(countCharacters("hello"));
 console.log(countCharacters(""));
+
+//Time Complexity : O(n)
+//Space Complexity : O(n)
