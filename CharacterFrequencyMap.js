@@ -30,3 +30,4 @@ console.log(countCharacters(""));
 
 //Time Complexity : O(n)
 //Space Complexity : O(n)
+//The algorithm takes O(n) time and O(k) space, where k is the number of unique characters. In the worst case, the space complexity is O(n).
