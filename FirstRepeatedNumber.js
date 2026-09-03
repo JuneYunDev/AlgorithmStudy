@@ -17,3 +17,6 @@ console.log(firstRepeatedNumber([3, 1, 4, 1, 3]));
 console.log(firstRepeatedNumber([5, 2, 5, 2]));
 console.log(firstRepeatedNumber([1, 2, 3, 4]));
 console.log(firstRepeatedNumber([]));
+
+//Time Complexity : O(n)
+//Space Complexity : O(n)
