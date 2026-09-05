@@ -5,7 +5,7 @@ An anagram uses exactly the same characters with exactly the same frequencies, b
 */
 
 function isAnagram(s, t) {
-  if (s.length != t.length) {
+  if (s.length !== t.length) {
     return false;
   } else {
     const original = new Map();
