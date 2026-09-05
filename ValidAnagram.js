@@ -41,3 +41,6 @@ console.log(isAnagram("abbc", "abcc")); // false
 console.log(isAnagram("a", "a")); // true
 console.log(isAnagram("ab", "ba")); // true
 console.log(isAnagram("ab", "abc")); // false
+
+//Time Complexity : O(n)
+//Space Complexity : O(n)
