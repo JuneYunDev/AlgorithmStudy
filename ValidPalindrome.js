@@ -26,3 +26,7 @@ console.log(isPalindrome(""));
 
 //Time Complexity : O(n)
 //Extra Space Complexity : O(1)
+
+/*
+I use two pointers, one at each end of the string. I compare the characters and move both pointers toward the center. If any pair is different, I return false. Otherwise, I return true after checking every pair. The algorithm takes O(n) time and O(1) extra space.
+*/
