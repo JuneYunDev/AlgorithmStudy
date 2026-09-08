@@ -27,3 +27,10 @@ console.log(hasPairWithSum([1, 2, 3, 4], 10)); // false
 console.log(hasPairWithSum([], 5)); // false
 console.log(hasPairWithSum([4], 8)); // false
 console.log(hasPairWithSum([1, 2], 0)); // false
+
+//Time Complexity : O(n)
+//Extra Space Complexity : O(1)
+
+/*
+The algorithm uses two pointers at both ends of the sorted array. If the sum is too small, I move the left pointer to the right. If the sum is too large, I move the right pointer to the left. The algorithm takes O(n) time and O(1) extra space
+*/
