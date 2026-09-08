@@ -7,21 +7,23 @@ Do not use a nested loop or a set.
 function hasPairWithSum(nums, target) {
   let left = 0;
   let right = nums.length - 1;
-  let sum = 0;
+
   while (left < right) {
-    sum = nums[left] + nums[right];
+    const sum = nums[left] + nums[right];
     if (sum < target) {
       left++;
     } else if (sum > target) {
       right--;
-    } else if (sum == target) {
+    } else if (sum === target) {
       return true;
     }
   }
   return false;
 }
 
-console.log(hasPairWithSum([1, 2, 4, 6, 10], 8));
-console.log(hasPairWithSum([1, 3, 5, 7], 6));
-console.log(hasPairWithSum([1, 2, 3, 4], 10));
-console.log(hasPairWithSum([], 5));
+console.log(hasPairWithSum([1, 2, 4, 6, 10], 8)); // true
+console.log(hasPairWithSum([1, 3, 5, 7], 6)); // true
+console.log(hasPairWithSum([1, 2, 3, 4], 10)); // false
+console.log(hasPairWithSum([], 5)); // false
+console.log(hasPairWithSum([4], 8)); // false
+console.log(hasPairWithSum([1, 2], 0)); // false
