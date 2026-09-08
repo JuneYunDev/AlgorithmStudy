@@ -35,3 +35,9 @@ console.log(mergeSortedArrays([1, 3, 5], [2, 4, 6]));
 console.log(mergeSortedArrays([1, 2, 7], [3, 4]));
 console.log(mergeSortedArrays([], [2, 5]));
 console.log(mergeSortedArrays([], []));
+
+//Time Complexity : O(n+m) => O(n)
+//Space Complexity : O(n+m) => O(n)
+/*
+The algorithm takes O(m + n) time and uses O(m + n) space for the output array. Excluding the output array, it uses O(1) auxiliary space.
+*/
