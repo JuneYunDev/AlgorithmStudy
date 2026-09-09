@@ -27,3 +27,9 @@ console.log(isBalancedParentheses("(())"));
 console.log(isBalancedParentheses("(()"));
 console.log(isBalancedParentheses(")("));
 console.log(isBalancedParentheses(""));
+
+//Time Complexity : O(n)
+//Space Complexity : O(n)
+/*
+I use a stack to store opening parentheses. When I find a closing parenthesis, I remove one opening parenthesis from the stack. If the stack is empty before removing, I return false. After checking every character, I return true only if the stack is empty. The algorithm takes O(n) time and O(n) space.
+*/
