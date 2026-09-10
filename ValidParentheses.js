@@ -22,15 +22,11 @@ function isValidParentheses(text) {
       return false;
     }
   }
-  if (stack.length === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return stack.length === 0;
 }
 
-console.log(isValidParentheses("()[]{}"));
-console.log(isValidParentheses("([{}])"));
-console.log(isValidParentheses("(]"));
-console.log(isValidParentheses("([)]"));
-console.log(isValidParentheses(""));
+console.log(isValidParentheses("{[]}")); // true
+console.log(isValidParentheses("(([]){})")); // true
+console.log(isValidParentheses("{[}]")); // false
+console.log(isValidParentheses("{")); // false
+console.log(isValidParentheses("]")); // false
