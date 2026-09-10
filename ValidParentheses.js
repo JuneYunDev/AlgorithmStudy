@@ -30,3 +30,9 @@ console.log(isValidParentheses("(([]){})")); // true
 console.log(isValidParentheses("{[}]")); // false
 console.log(isValidParentheses("{")); // false
 console.log(isValidParentheses("]")); // false
+
+//Time Complexity : O(n)
+//Space Complexity : O(n)
+/*
+I push each opening bracket onto the stack. When I encounter a closing bracket, I check whether it matches the most recent opening bracket. If they do not match, I return false. After processing the entire string, the stack must be empty. The algorithm takes O(n) time and O(n) space.
+*/
