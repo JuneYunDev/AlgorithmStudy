@@ -27,3 +27,10 @@ console.log(binarySearch([1, 3, 5, 7, 9], 7));
 console.log(binarySearch([2, 4, 6, 8], 2));
 console.log(binarySearch([2, 4, 6, 8], 5));
 console.log(binarySearch([], 3));
+
+//Time Complexity : O(log n)
+//Space Complexity : O(1)
+
+/*
+I compare the target with the middle element of the sorted array. If the target is larger, I search the right half. If it is smaller, I search the left half. Each iteration reduces the search range by half. Therefore, the algorithm takes O(log n) time and O(1) space.
+*/
