@@ -51,3 +51,6 @@ console.log(maxVowels("abciiidef", 3));
 console.log(maxVowels("aeiou", 2));
 console.log(maxVowels("rhythm", 3));
 console.log(maxVowels("a", 1));
+
+//Time Complexity : O(n)
+//Space Complexity : O(1)
