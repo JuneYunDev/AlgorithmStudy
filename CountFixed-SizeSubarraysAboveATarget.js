@@ -24,3 +24,6 @@ console.log(countSubarrays([2, 1, 5, 1, 3, 2], 3, 7)); // 3
 console.log(countSubarrays([1, 1, 1, 1], 2, 3)); // 0
 console.log(countSubarrays([4, -1, 2, 1], 2, 3)); // 2
 console.log(countSubarrays([5], 1, 5)); // 1
+
+//Time Complexity : O(n)
+//Space Complexity : O(1)
