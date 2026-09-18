@@ -36,3 +36,6 @@ console.log(longestSubarray([1, 2, 1, 1, 3], 5)); // 4
 console.log(longestSubarray([2, 3, 1, 2], 4)); // 2
 console.log(longestSubarray([5, 6, 7], 4)); // 0
 console.log(longestSubarray([], 5)); // 0
+
+//Time Complexity : O(n)
+//Space Complexity : O(1)
