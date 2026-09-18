@@ -9,23 +9,26 @@ Do not use nested loops.
 function longestSubarray(nums, target) {
   let left = 0;
   let right = 0;
-  let window = nums[left];
+  let window = 0;
   let maxLength = 0;
 
   while (right < nums.length) {
-    let length;
-    if (window <= target) {
-      length = right - left + 1;
-      if (length > maxLength) {
-        maxLength = length;
-      }
-      right++;
-      window = window + nums[right];
-    } else if (window > target) {
+    window = window + nums[right];
+
+    while (window > target) {
       window = window - nums[left];
       left++;
     }
+
+    let length = right - left + 1;
+
+    if (length > maxLength) {
+      maxLength = length;
+    }
+
+    right++;
   }
+
   return maxLength;
 }
 
